@@ -179,19 +179,19 @@ section {
 }
 
 .section__pic-container1 {
-  width: 400px; /* Adjust the size as needed */
-  height: 400px; /* Make sure width and height are equal for a perfect circle */
-  overflow: hidden; /* Hide the overflow */
-  border-radius: 100%; /* Create the circle shape */
-  display: flex; /* Center the image */
-  align-items: center; /* Center the image vertically */
-  justify-content: center; /* Center the image horizontally */
+  width: 400px; 
+  height: 400px; 
+  overflow: hidden; 
+  border-radius: 100%; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
 }
 
 .section__pic-container1 img {
-  width: 100%; /* Adjust the image to fill the container */
-  height: auto; /* Maintain aspect ratio */
-  object-fit: cover; /* Cover the entire area of the circle */
+  width: 100%;
+  height: auto; 
+  object-fit: cover; 
 }
 
 .text-container {

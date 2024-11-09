@@ -13,10 +13,10 @@ window.onscroll = function() {
   } else {
       backToTopButton.style.display = "none";
   }
-};
+}
 
 // Smooth scroll back to top
 document.getElementById("backToTop").addEventListener("click", function(event) {
   event.preventDefault();
   window.scrollTo({ top: 0, behavior: "smooth" });
-});
+}
